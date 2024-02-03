@@ -1,0 +1,24 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(45deg,rgb(14, 42, 73), rgb(0, 0, 0));
+    color: white;
+    box-shadow: 0px 0px 1px solid rgba(87, 81, 81, 0.155);
+    width: 100%;
+    padding: 5px;
+}
+
+.nav-bar ul li{
+   padding: 15px 20px;
+   font-size: 18px;
+   border-bottom: 2px solid transparent;
+}
+.nav-bar ul li:hover{
+    border-color: white;
+ }
